@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+    <TextView
+            android:id="@+id/mil"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_ingredient_label"
+            />
+    <EditText
+            android:id="@+id/main_ingredient"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mil"
+            />
+
+    <TextView
+            android:id="@+id/sil"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/main_ingredient"
+            android:text="@string/sauce_ingredient_label"
+            />
+    <EditText
+            android:id="@+id/sauce_ingredient"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sil"
+            />
+
+    <TextView
+            android:id="@+id/dil"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sauce_ingredient"
+            android:text="@string/side_ingredient_label"
+            />
+    <EditText
+            android:id="@+id/side_ingredient"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dil"
+            />
+
+    <TextView
+            android:id="@+id/lp_comment"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lp_comment"
+            android:layout_below="@id/side_ingredient"
+            />
+
+    <Button
+            android:id="@+id/searchByIngredientsButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lp_comment"
+            android:layout_centerHorizontal="true"
+            android:text="@string/search"
+            android:onClick="clickHandler"
+            />
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/searchByIngredientsButton"
+            android:text="@string/copyright"
+            />
+
+
+</RelativeLayout>

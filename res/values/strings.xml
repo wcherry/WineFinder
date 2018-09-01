@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WineFinder</string>
+    <string name="main_ingredient_label">Main Ingredient</string>
+    <string name="sauce_ingredient_label">Sauce Ingredient</string>
+    <string name="side_ingredient_label">Side Ingredient</string>
+    <string name="search">Search</string>
+    <string name="search_by_label">Search By</string>
+
+    <string name="food_button_label">Food</string>
+    <string name="wine_button_label">Wine</string>
+    <string name="ingredients_button_label">Ingredients</string>
+    <string name="recipes_button_label">Recipes</string>
+
+    <string name="restart_button_label">Restart</string>
+
+
+    <string name="copyright">Copyright (c) 2012 by SuperSonic Software</string>
+    <string name="lp_comment">*Long press any field for more input options</string>
+
+</resources>
